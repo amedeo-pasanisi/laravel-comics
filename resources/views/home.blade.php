@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
-@section('title', 'home')
-
+@section('title', 'Homepage')
+@section('content')
+    <a href="/comics">Comics</a>
+@endsection
 {{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
